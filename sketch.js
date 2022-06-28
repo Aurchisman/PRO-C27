@@ -21,7 +21,7 @@ function setup() {
   var ground_options={
     isStatic:true
   };
-  ground=Bodies.rectangle(100,300,400,20),ground_options;
+  ground=Bodies.rectangle(100,300,400,20,,ground_options);
   World.add(world,ground);
   box1 = new Box(200,100,50,50);
   
